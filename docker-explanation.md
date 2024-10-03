@@ -9,6 +9,7 @@ Imagine you want to run a program on your computer, but that program has many de
 - **Container**: A running instance of an image. It’s like the actual dish created from the recipe.
 - **Dockerfile**: A file that contains the instructions to build a Docker image.
 - **Docker Hub**: A repository (like GitHub for code) where Docker images can be stored and shared.
+- **Azure Container Registry (ACR)**: A repository (like GitHub for code) where Docker images can be stored and shared but within the Azure ecosystem.
 
 ---
 

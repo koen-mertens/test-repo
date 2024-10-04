@@ -118,4 +118,8 @@ docker tag my-node-app my-node-app:v1
 - **`docker tag <image> <new-name>`**: Assign a new name or version to an image.
 - **`docker push <image>`**: Upload an image to Docker Hub.
 
-These exercises will help you become more familiar with the basic concepts of Docker and how to use it to build, manage, and share applications.
+### Command line list of Docker Commands:
+- **`docker rm -f <imageid>`**: Remove an image.
+- **`docker images`**: List all images available local.
+- **`docker rm -vf $(docker ps -aq)`**: Remove all containers, also the ones running.
+- **`docker rmi -f $(docker images -aq)`**: Remove all images.
